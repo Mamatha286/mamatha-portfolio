@@ -1,72 +1,65 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f7f9fc;
+  background-color: #f2f4f8;
   color: #222;
 }
 
-header {
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
   background-color: #003366;
   color: white;
+  width: 300px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar h2 {
+  margin: 10px 0 5px;
+}
+
+.sidebar p {
+  font-size: 14px;
   text-align: center;
-  padding: 40px 20px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-header p {
-  margin: 10px 0;
-  font-size: 1.2rem;
-}
-
-nav {
-  margin-top: 20px;
-}
-
-nav a {
-  color: #ffffff;
-  margin: 0 15px;
+.sidebar a {
+  color: #ffd700;
   text-decoration: none;
-  font-weight: 500;
 }
 
-main {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 0 20px;
+.sidebar h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
 }
 
-section {
-  background: #ffffff;
-  padding: 25px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+.sidebar ul {
+  padding-left: 18px;
+  font-size: 14px;
 }
 
-section h2 {
-  color: #003366;
-  margin-top: 0;
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
 }
 
-ul {
-  padding-left: 20px;
+.content {
+  flex-grow: 1;
+  padding: 40px;
 }
 
-a {
-  color: #003366;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
+.content section {
+  background: #fff;
   padding: 20px;
-  background-color: #003366;
-  color: white;
-}
+  margin-bottom:
