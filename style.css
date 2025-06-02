@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #004085;
+  background-color: #003366;
   color: white;
   padding: 20px;
   text-align: center;
@@ -20,4 +20,12 @@ section {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
