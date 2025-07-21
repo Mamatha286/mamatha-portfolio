@@ -2,7 +2,7 @@
   "name": "mamatha-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Mamatha286.github.io/mamatha-portfolio",
+  "homepage": "https://Mamatha286/mamatha-portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
