@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mamatha-portfolio/static/css/main.3dd6744b.css",
-    "main.js": "/mamatha-portfolio/static/js/main.3c31e40a.js",
+    "main.js": "/mamatha-portfolio/static/js/main.b195c106.js",
     "index.html": "/mamatha-portfolio/index.html",
     "main.3dd6744b.css.map": "/mamatha-portfolio/static/css/main.3dd6744b.css.map",
-    "main.3c31e40a.js.map": "/mamatha-portfolio/static/js/main.3c31e40a.js.map"
+    "main.b195c106.js.map": "/mamatha-portfolio/static/js/main.b195c106.js.map"
   },
   "entrypoints": [
     "static/css/main.3dd6744b.css",
-    "static/js/main.3c31e40a.js"
+    "static/js/main.b195c106.js"
   ]
 }
