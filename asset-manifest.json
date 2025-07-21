@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mamatha-portfolio/static/css/main.3dd6744b.css",
+    "main.js": "/mamatha-portfolio/static/js/main.6fb71825.js",
+    "static/media/profile.jpg": "/mamatha-portfolio/static/media/profile.29ff6d625d314a8e682d.jpg",
+    "index.html": "/mamatha-portfolio/index.html",
+    "main.3dd6744b.css.map": "/mamatha-portfolio/static/css/main.3dd6744b.css.map",
+    "main.6fb71825.js.map": "/mamatha-portfolio/static/js/main.6fb71825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dd6744b.css",
+    "static/js/main.6fb71825.js"
+  ]
+}
