@@ -1,12 +1,15 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import './Hero.css';
-import profilePic from '../assets/profile.jpg';
 
 function Hero() {
   return (
     <section className="hero">
-      <img src={profilePic} alt="Mamatha H" className="hero-img" />
+      <img
+        src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
+        alt="Mamatha H"
+        className="hero-img"
+      />
       <h1>Mamatha H</h1>
       <TypeAnimation
         sequence={[
@@ -23,7 +26,7 @@ function Hero() {
         className="typing"
       />
     </section>
-  )
+  );
 }
 
 export default Hero;
